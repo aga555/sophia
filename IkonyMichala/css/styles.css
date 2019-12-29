@@ -381,7 +381,7 @@ h1, h2, h3, h4, h5, h6{
 
 .works__galeria{
     background-image: 
-    url(../img/ikonyWorkshop.png);
+    url(../img/kk.jpg);
     grid-area: 1/3/3/3;
 }
 
@@ -415,41 +415,6 @@ h1, h2, h3, h4, h5, h6{
     }
 }
 
-.works__architecture{
-    background-image: 
-    url(../img/architecture.png);
-    grid-area: 3/1/3/3;
-}
-
-@media (max-width: 768px){
-    .works__architecture{
-        grid-area: 3/1/3/2;
-    }
-}
-
-@media (max-width: 576px){
-    .works__architecture{
-        grid-area: 5/1/6/2;
-    }
-}
-
-.works__animals{
-    background-image: 
-    url(../img/animals.png);
-    grid-area: 3/3/3/3;
-}
-
-@media (max-width: 768px){
-    .works__animals{
-        grid-area: 3/2/3/3;
-    }
-}
-
-@media (max-width: 576px){
-    .works__animals{
-        grid-area: 6/1/7/2;
-    }
-}
 
 .works__link{
     text-decoration: none;
@@ -589,7 +554,7 @@ h1, h2, h3, h4, h5, h6{
 /*---videoConatainer---*/
 
 .video{
-    background-image: url(../img/girlHair.png);
+    background-image: url(../img/ikonyWorkshop.png);
     background-size: cover;
     background-position: center right;
     display: flex;
@@ -708,7 +673,7 @@ h1, h2, h3, h4, h5, h6{
 /*---contact---*/
 
 .contact{
-    background-image: url(../img/architectureForm.png);
+ /*   background-image: url(../img/.png);*/
     background-size: cover;
     background-position: center center;
     margin: 0 auto;
